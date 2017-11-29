@@ -32,7 +32,7 @@ end
 context "Challenge IV: Adding Data" do 
   describe "#adding" do 
     it "operates on the shipping_manifest hash to add a key/value pair" do 
-      expect(adding).to eq({"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3, "pearl necklace" => 1})
+      expect(adding).to eq({"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3, "muskets" => 2, "gun powder" => 4})
     end
   end
 end
